@@ -36,6 +36,11 @@
         },
       };
     </script>
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/c758c56606.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body class="font-manrope">
@@ -73,7 +78,7 @@
                 </li>
               </ul>
             </div>
-            <a class="text-4xl font-extrabold"
+            <a class="text-4xl font-extrabold pl-3"
               >Hockey<span class="text-[#FF4240]">'</span>s</a
             >
           </div>
@@ -87,6 +92,7 @@
             </ul>
           </div>
           <div class="navbar-end">
+            <i class="fa-solid fa-magnifying-glass pr-6 text-[#89898B]"></i>
             <a class="btn bg-orange-primary text-white text-xl font-bold"
               >Get Ticket</a
             >
@@ -96,15 +102,15 @@
     </header>
     <main>
       <!-- banner section -->
-      <section class="container mx-auto mt-14 mb-16 px-5 rounded-4">
+      <section class="container  mx-auto mt-14 mb-16 px-5 rounded-4">
         <div class="relative carousel w-full lg:h-[550px]">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
             <div
               class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transition-1s transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+              <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
@@ -112,8 +118,8 @@
             <div
               class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
@@ -121,8 +127,8 @@
             <div
               class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide4" class="btn btn-circle">❯</a>
+              <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div>
           <div id="slide4" class="carousel-item relative w-full">
@@ -130,18 +136,65 @@
             <div
               class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div>
         </div>
-        <div class="flex justify-end">
-          <h2 class="text-black">Meet all the heroes from the field</h2>
-          <br />
-          <p>
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat dolor. Purus urna in sit nullam proin.
-          </p>
+      </section>
+      <!-- Professional Hockeys Club -->
+      <section>
+        <div>
+            <h3 class="text-center text-6xl text-[#131318] font-extrabold">
+              Professional Hockeys Club
+            </h3>
+            <p
+              class="text-xl text[#131318] text-center font-medium mt-6 mb-[48px] pb-[32px]]"
+            >
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat <br>dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+      </section>
+      <section class="container mx-auto ">
+        <!-- progress container -->
+        <div class="container mx-auto mb-[100px] grid justify-center lg:grid-flow-col  lg:gap-[32px]">
+          <!-- 1st one -->
+          <div class="w-[250px] h-[300px]   flex flex-col  justify-center  text-center relative">
+            <div class=" absolute top-[1.625rem]
+            left-[80px] radial-progress text-[#FF4240] "style="--value:87;" role="progressbar">87%</div>
+            <div>
+                <h4 class="mt-[24px] mb-[16px]">Prayer Facility</h2>
+                <p class="mb-0">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- 2nd one  -->
+          <div class="w-[250px] h-[300px]   flex flex-col  justify-center text-center relative">
+            <div class=" absolute top-[1.625rem]
+            left-[80px] radial-progress text-[#49D293] "style="--value:95;" role="progressbar">95%</div>
+            <div>
+                <h4 class="mt-[24px] mb-[16px]">Experienced Coach</h2>
+                <p class="mb-0">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- 3rd one -->
+          <div class="w-[250px] h-[300px]  flex flex-col  justify-center text-center relative">
+            <div class=" absolute top-[1.625rem]
+            left-[80px] radial-progress text-[#FFB546] "style="--value:90;" role="progressbar">90%</div>
+            <div>
+                <h4 class="mt-[24px] mb-[16px]">Senior Player</h2>
+                <p class="mb-0">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+          <!-- 4th one -->
+          <div class="w-[250px] h-[300px]  flex flex-col  justify-center text-center relative">
+            <div class=" absolute top-[1.625rem]
+            left-[80px] radial-progress text-[#4C8DF1] "style="--value:80;" role="progressbar">80%</div>
+            <div>
+                <h4 class="mt-[24px] mb-[16px]">Training Ground</h2>
+                <p class="mb-0">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
