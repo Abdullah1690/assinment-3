@@ -7,7 +7,7 @@
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
-      type="text/css"
+      type="text/css" 
     />
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -106,17 +106,27 @@
         <div class="relative carousel w-full lg:h-[550px]">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
+            <!-- banner text area -->
+            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8">
+              <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
+              <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
             <div
-              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transition-1s transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transition-1s transform -translate-y-1/2 left-5 right-5 "
             >
               <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
+            <!-- banner text area -->
             <img src="Images/2.png" class="w-full" />
+            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8">
+              <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
+              <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
             <div
-              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 "
             >
               <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
@@ -124,8 +134,13 @@
           </div>
           <div id="slide3" class="carousel-item relative w-full">
             <img src="Images/3.png" class="w-full" />
+            <!-- banner text area -->
+            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8">
+              <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
+              <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
             <div
-              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 "
             >
               <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
@@ -133,8 +148,13 @@
           </div>
           <div id="slide4" class="carousel-item relative w-full">
             <img src="Images/4.png" class="w-full" />
+            <!-- banner text area -->
+            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8">
+              <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
+              <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
             <div
-              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute justify-center top-[12rem] lg:justify-start lg:top-[29rem] flex transform -translate-y-1/2 left-5 right-5 "
             >
               <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
@@ -205,7 +225,7 @@
         </div>
       </section>
       <!-- 3 card section -->
-      <section class="container mx-auto bg-red-600 mb-[100px]">
+      <section class="container mx-auto  mb-[100px]">
         <div class="  grid grid-cols-2 gap-4 ">
             <!-- 1st card -->
             <div class="card h-[338px] bg-base-100 shadow-xl image-full  ">
@@ -231,22 +251,21 @@
                   </div>
                 </div>
               </div>
-              <!-- 3rd card -->
-              <div class="card w-[1170px]  h-[450px]  bg-base-100 shadow-xl image-full"
-                <figure><img class="w-full"  src="Images/4.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                  <h2 class="card-title">Professional Program</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary">Register Now!</button>
-                  </div>
-                </div>
-              </div>
+        </div>
+        <!-- 3rd card -->
+        <div class="bg-[url('/Images/4.png')] h-[450px] bg-no-repeat bg-cover bg-center rounded-xl  mt-6">
+          <div class="w-full h-full bg-[#131318] opacity-[50%] rounded-xl relative">
+            <div class="text-white w-[40%] absolute bottom-10 left-10">
+              <h3 class="text-2xl font-extrabold mb-5">Professional Program</h3>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn btn-error mt-4">Register Now!</button>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Our New Products section  -->
-      <section class=" container mx-auto border-t-2 border-b-2 mb-[100px] ">
+      <section class=" container mx-auto border-t-2 border-dashed border-b-2 mb-[100px] ">
             <div class="text-center">
                 <h2 class="text-[#131318] text-4xl font-extrabold mb-[24px]">Our New Products</h2>
                 <p class="text-xl text[#131318] text-center font-medium mb-[32px] ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
