@@ -102,12 +102,12 @@
     </header>
     <main>
       <!-- banner section -->
-      <section class="container  mx-auto mt-14 mb-16 px-5 rounded-4">
+      <section class="px-4 lg:px-0 container  mx-auto mt-14 mb-16  rounded-4">
         <div class="relative carousel w-full lg:h-[550px]">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
             <!-- banner text area -->
-            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8">
+            <div class="bg-black rounded-xl absolute text-white p-8 w-1/2 bottom-8 right-8 hidden lg:block">
               <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
               <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
@@ -161,9 +161,13 @@
             </div>
           </div>
         </div>
+        <div class="bg-black rounded-xl  text-white p-8  bottom-8 right-8 lg:hidden block mt-4">
+          <h3 class="text-2xl font-bold mb-[10px]">Meet all the heroes from the field</h3>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
       </section>
       <!-- Professional Hockeys Club -->
-      <section class="container mx-auto border-t-2 border-b-2">
+      <section class="px-4 lg:px-0 container mx-auto border-t-2 border-b-2">
         <div>
             <h3 class="text-center text-6xl text-[#131318] font-extrabold">
               Professional Hockeys Club
@@ -176,11 +180,11 @@
             </p>
           </div>
       </section>
-      <section class="container mx-auto border-b-2  ">
+      <section class="px-4 lg:px-0 container mx-auto border-b-2  ">
         <!-- progress container -->
         <div class="container mx-auto  grid justify-center lg:grid-flow-col  lg:gap-[32px]">
           <!-- 1st one -->
-          <div class="w-[250px] h-[300px] border border-sky-500   flex flex-col  justify-center  text-center relative">
+          <div class="w-[250px] h-[300px]   flex flex-col  justify-center  text-center relative">
             <div class=" absolute top-[1.625rem]
             left-[80px] radial-progress text-[#FF4240] "style="--value:87;" role="progressbar">87%</div>
             <div>
@@ -218,15 +222,15 @@
         </div>
       </section>
       <!-- Program Sections -->
-      <section class="container mx-auto border-b-2 mb-[48px]  ">
+      <section class="px-4 lg:px-0 container mx-auto border-b-2 mb-[48px]  ">
         <div class="text-center">
             <h3 class="text-[#131318] text-4xl font-extrabold mt-[32px]">Program Sections</h3>
             <p class="text-[#131318] mt-[24px] pb-[32px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
         </div>
       </section>
       <!-- 3 card section -->
-      <section class="container mx-auto  mb-[100px]">
-        <div class="  grid grid-cols-2 gap-4 ">
+      <section class="px-4 lg:px-0 container mx-auto  mb-[100px]">
+        <div class="  grid lg:grid-cols-2 gap-4 ">
             <!-- 1st card -->
             <div class="card h-[338px] bg-base-100 shadow-xl image-full  ">
                 <figure><img class="w-full" src="Images/2.png" alt="Shoes" /></figure>
@@ -254,8 +258,8 @@
         </div>
         <!-- 3rd card -->
         <div class="bg-[url('/Images/4.png')] h-[450px] bg-no-repeat bg-cover bg-center rounded-xl  mt-6">
-          <div class="w-full h-full bg-[#131318] opacity-[50%] rounded-xl relative">
-            <div class="text-white w-[40%] absolute bottom-10 left-10">
+          <div class="w-full h-full bg-[#131318] opacity-[50%] rounded-xl lg:relative p-8 lg:p-0">
+            <div class="text-white lg:w-[40%] lg:absolute bottom-10 left-10">
               <h3 class="text-2xl font-extrabold mb-5">Professional Program</h3>
               <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -265,18 +269,18 @@
         </div>
       </section>
       <!-- Our New Products section  -->
-      <section class=" container mx-auto border-t-2 border-dashed border-b-2 mb-[100px] ">
+      <section class="px-4 lg:px-0  container mx-auto border-t-2 border-dashed border-b-2 mb-[100px] ">
             <div class="text-center">
                 <h2 class="text-[#131318] text-4xl font-extrabold mb-[24px]">Our New Products</h2>
                 <p class="text-xl text[#131318] text-center font-medium mb-[32px] ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
       </section>
       <!-- products section -->
-      <section class="container mx-auto grid grid-cols-2 gap-6 mb-[100px]">
+      <section class="px-4 lg:px-0 container mx-auto grid lg:grid-cols-2 gap-6 mb-[100px]">
         <!-- 1st product -->
-        <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+        <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/5.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/5.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -298,9 +302,9 @@
             </div>
         </div>
         <!-- 2nd product -->
-        <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+        <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/6.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/6.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -322,9 +326,9 @@
             </div>
         </div>
         <!-- 3rd product -->
-        <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+        <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/7.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/7.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -346,9 +350,9 @@
             </div>
         </div>
         <!-- 4th product  -->
-        <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+        <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/8.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/8.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -370,9 +374,9 @@
             </div>
         </div>
         <!-- 5th product  -->
-        <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+        <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/9.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/9.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -394,9 +398,9 @@
             </div>
         </div>
         <!-- 6th product -->
-           <div class="flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
+           <div class="lg:flex gap-5 rounded-xl border-2 border-[#89898B]  p-5">
             <div>
-                <img src="Images/10.png" alt="">
+                <img class="mx-auto  mb-5 w-full lg:mb-0" src="Images/10.png" alt="">
             </div>
             <div>
                 <div class="flex items-center gap-3">
@@ -418,16 +422,18 @@
             </div>
         </div>
       </section>
-      <section class="container mx-auto border-t-2 border-b-2 mb-[48px]">
+      <!-- client question section -->
+      <section class="px-4 lg:px-0 container mx-auto border-t-2 border-b-2 mb-[48px]">
             <div class="text-center">
                 <h1 class="text-3xl font-extrabold mt-[32px] mb-[24px]">Clients Question</h1>
                 <p class="mb-[32px]"> amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
       </section>
-      <section class="mb-[100px]">
+      <!-- asking question section -->
+      <section class="px-4 lg:px-0 mb-[100px]">
         <div class="hero ">
             <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/11.png" class="max-w-xl rounded-lg shadow-2xl" />
+              <img src="Images/11.png" class="lg:max-w-xl rounded-lg shadow-2xl" />
               <div class="">
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -460,14 +466,15 @@
             </div>
           </div>
       </section>
-      <section class="container mx-auto border-t-2 border-b-2 mb-[48px]">
+      <section class="px-4 lg:px-0 container mx-auto border-t-2 border-b-2 mb-[48px]">
         <div class="text-center">
             <h1 class="text-3xl font-extrabold mt-[32px] mb-[24px]">Get In Touch</h1>
             <p class="mb-[32px]"> amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
         </div>
   </section>
-  <section class="container mx-auto flex justify-evenly gap-2">
-    <div class="border-2 border-[#131318] p-8 rounded-xl w-[40%]">
+  <!-- form section -->
+  <section class="px-4 lg:px-0 container mx-auto lg:flex justify-evenly gap-2">
+    <div class="border-2 border-[#131318] p-8 rounded-xl lg:w-[40%]">
         <div class="bg-[#BCED6D] pt-8 pb-12 pl-8 pr-8 rounded-xl">
             <img class="mb-4" src="Images/Group 1171275317.png" alt="">     
             <p>Phone Number:</p>
@@ -484,9 +491,9 @@
             <p class="">(+62) 123-321-543</p>
         </div>
     </div>
-    <div class="w-[60%]">
+    <div class="lg:w-[60%] mt-5 lg:mt-0">
         <form class="">
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid lg:grid-cols-2 gap-5">
                 <label class="form-control w-full ">
                     <div class="label">
                       <span class="label-text">Your name</span>
@@ -532,7 +539,7 @@
         </form>
     </div>
   </section>
-  <section class="container mx-auto my-[100px]">
+  <section class="px-4 lg:px-0 container mx-auto my-[100px]">
     <div class="footer footer-center p-10 bg-base-200 text-base-content rounded">
        <p class="text-3xl font-extrabold">Social Media</p>
         <nav>
